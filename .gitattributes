@@ -1,0 +1,2 @@
+test_cases/jeecg-system-start-3.5.3.jar filter=lfs diff=lfs merge=lfs -text
+mocked_jars/jdk/rt.jar filter=lfs diff=lfs merge=lfs -text
