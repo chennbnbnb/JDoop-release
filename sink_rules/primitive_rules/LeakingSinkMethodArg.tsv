@@ -1,0 +1,46 @@
+cmdi	0	<java.lang.Runtime: java.lang.Process exec(java.lang.String)>
+cmdi	0	<java.lang.Runtime: java.lang.Process exec(java.lang.String,java.lang.String[])>
+cmdi	0	<java.lang.Runtime: java.lang.Process exec(java.lang.String,java.lang.String[],java.io.File)>
+cmdi	0	<java.lang.Runtime: java.lang.Process exec(java.lang.String[])>
+cmdi	0	<java.lang.Runtime: java.lang.Process exec(java.lang.String[],java.lang.String[])>
+cmdi	0	<java.lang.Runtime: java.lang.Process exec(java.lang.String[],java.lang.String[],java.io.File)>
+cmdi	0	<java.lang.ProcessBuilder: void <init>(java.util.List)>
+cmdi	0	<java.lang.ProcessBuilder: void <init>(java.lang.String[])>
+cmdi	0	<java.lang.ProcessBuilder: java.lang.ProcessBuilder command(java.util.List)>
+cmdi	0	<java.lang.ProcessBuilder: java.lang.ProcessBuilder command(java.lang.String[])>
+cmdi	1	<java.lang.Runtime: java.lang.Process exec(java.lang.String,java.lang.String[])>
+cmdi	1	<java.lang.Runtime: java.lang.Process exec(java.lang.String,java.lang.String[],java.io.File)>
+cmdi	1	<java.lang.Runtime: java.lang.Process exec(java.lang.String[],java.lang.String[])>
+cmdi	1	<java.lang.Runtime: java.lang.Process exec(java.lang.String[],java.lang.String[],java.io.File)>
+Freemarker SSTI Inject	1	<freemarker.template.Template: void <init>(java.lang.String,java.io.Reader,freemarker.template.Configuration)>
+sqli	0	<java.sql.Connection: java.sql.PreparedStatement prepareStatement(java.lang.String,int[])>
+sqli	0	<java.sql.Connection: java.sql.PreparedStatement prepareStatement(java.lang.String)>
+sqli	0	<java.sql.Connection: java.sql.PreparedStatement prepareStatement(java.lang.String,java.lang.String[])>
+sqli	0	<java.sql.Connection: java.sql.PreparedStatement prepareStatement(java.lang.String,int,int,int)>
+sqli	0	<java.sql.Connection: java.sql.PreparedStatement prepareStatement(java.lang.String,int)>
+sqli	0	<java.sql.Connection: java.sql.PreparedStatement prepareStatement(java.lang.String,int,int)>
+sqli	0	<java.sql.Connection: java.sql.CallableStatement prepareCall(java.lang.String,int,int)>
+sqli	0	<java.sql.Connection: java.sql.CallableStatement prepareCall(java.lang.String)>
+sqli	0	<java.sql.Connection: java.sql.CallableStatement prepareCall(java.lang.String,int,int,int)>
+sqli	0	<java.sql.Statement: void addBatch(java.lang.String)>
+sqli	0	<java.sql.Statement: java.sql.ResultSet executeQuery(java.lang.String)>
+sqli	0	<java.sql.Statement: boolean execute(java.lang.String,int)>
+sqli	0	<java.sql.Statement: boolean execute(java.lang.String,int[])>
+sqli	0	<java.sql.Statement: boolean execute(java.lang.String)>
+sqli	0	<java.sql.Statement: boolean execute(java.lang.String,java.lang.String[])>
+sqli	0	<java.sql.Statement: int executeUpdate(java.lang.String,java.lang.String[])>
+sqli	0	<java.sql.Statement: int executeUpdate(java.lang.String,int)>
+sqli	0	<java.sql.Statement: int executeUpdate(java.lang.String,int[])>
+sqli	0	<java.sql.Statement: int executeUpdate(java.lang.String)>
+sqli	0	<org.springframework.jdbc.core.JdbcTemplate: java.util.Map queryForMap(java.lang.String)>
+sqli	0	<org.springframework.jdbc.core.JdbcTemplate: java.util.List query(java.lang.String,org.springframework.jdbc.core.RowMapper)>
+sqli	0	<org.springframework.jdbc.core.JdbcTemplate: void execute(java.lang.String)>
+sqli	0	<org.springframework.jdbc.core.JdbcTemplate: int[] batchUpdate(java.lang.String[])>
+sqli	0	<org.springframework.jdbc.core.JdbcTemplate: long queryForLong(java.lang.String)>
+sqli	0	<org.springframework.jdbc.core.JdbcTemplate: int queryForInt(java.lang.String)>
+sqli	0	<org.springframework.jdbc.core.JdbcTemplate: org.springframework.jdbc.support.rowset.SqlRowSet queryForRowSet(java.lang.String)>
+sqli	0	<org.springframework.jdbc.core.JdbcTemplate: java.util.List queryForList(java.lang.String)>
+sqli	0	<org.springframework.jdbc.core.JdbcTemplate: java.lang.Object queryForObject(java.lang.String,java.lang.Object[],java.lang.Class)>
+JDBC deserial	0	<java.sql.DriverManager: java.sql.Connection getConnection(java.lang.String,java.lang.String,java.lang.String)>
+JDBC deserial	0	<java.sql.DriverManager: java.sql.Connection getConnection(java.lang.String,java.util.Properties)>
+JDBC deserial	0	<java.sql.DriverManager: java.sql.Connection getConnection(java.lang.String)>
