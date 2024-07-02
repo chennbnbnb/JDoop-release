@@ -1,2 +1,10 @@
-test_cases/jeecg-system-start-3.5.3.jar filter=lfs diff=lfs merge=lfs -text
+mocked_jars/jdk/nashorn.jar filter=lfs diff=lfs merge=lfs -text
 mocked_jars/jdk/rt.jar filter=lfs diff=lfs merge=lfs -text
+mocked_jars/servlet/MockServlet-1.0-SNAPSHOT.jar filter=lfs diff=lfs merge=lfs -text
+mocked_jars/servlet/jakarta.servlet-api-5.0.0.jar filter=lfs diff=lfs merge=lfs -text
+mocked_jars/servlet/javax.servlet-api-4.0.1.jar filter=lfs diff=lfs merge=lfs -text
+mocked_jars/spring/MockSpring-1.0-SNAPSHOT.jar filter=lfs diff=lfs merge=lfs -text
+mocked_jars/jdk/jce.jar filter=lfs diff=lfs merge=lfs -text
+mocked_jars/jdk/jsse.jar filter=lfs diff=lfs merge=lfs -text
+test_cases/jeecg-system-start-3.5.3.jar filter=lfs diff=lfs merge=lfs -text
+test_cases/servlet_test filter=lfs diff=lfs merge=lfs -text
