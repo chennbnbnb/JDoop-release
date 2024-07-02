@@ -166,7 +166,7 @@ def analysis(package_path, json_output, threads):
 
     # 开始数据流分析
     print("[%s] start dataflow analysis"%(datetime.now()))
-    solver(fact_db, res_db, threads)
+    solver(fact_db, res_db, threads//2)
     print("[%s] fin dataflow analysis"%(datetime.now()))
     
     print("=====count=======")
